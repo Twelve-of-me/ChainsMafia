@@ -44,23 +44,23 @@
 
 ### 2.注册账户
 
-<img src="C:/Users/a1063/Desktop/ChainsMafia/Images/2_1.png" alt="图片替换文本" width="300" height="500" align="bottom" />
+<img src="./Images/2_1.png" alt="图片替换文本" width="300" height="500" align="bottom" />
 
 ### 3.选择正确的网络
 
-<img src="C:/Users/a1063/Desktop/ChainsMafia/Images/3_1.png" alt="图片替换文本" width="300" height="500" align="bottom" />
+<img src="./Images/3_1.png" alt="图片替换文本" width="300" height="500" align="bottom" />
 
 ### 4.到水龙头获取Ropsten测试币
 
-![获取Ropsten测试币](C:/Users/a1063/Desktop/ChainsMafia/Images/4_1.png)
+![获取Ropsten测试币](./Images/4_1.png)
 
 ### 5.访问我们的网站
 
-**[ChainsMafia](www.sparrowoo.top/ChainsMafia)**
+**[ChainsMafia](www.sparrowoo.top/ChainsMafia/Dapp)**
 
 **```前端测试环境在本地，智能合约已部署在Ropsten测试网络```**
 
-![访问我们的网站](C:/Users/a1063/Desktop/ChainsMafia/Images/5_1.png)
+![访问我们的网站](./Images/5_1.png)
 
 ### 6.背景介绍
 
@@ -74,47 +74,47 @@ You are a small leader in European underground trading, and you need to build yo
 
 >打开gallery.html认识24种不同的卡牌角色
 >![卡牌介绍](./Images/7_1.png)
->![卡牌介绍](C:/Users/a1063/Desktop/ChainsMafia/Images/7_2.png)
->![卡牌介绍](C:/Users/a1063/Desktop/ChainsMafia/Images/7_3.png)
->![卡牌介绍](C:/Users/a1063/Desktop/ChainsMafia/Images/7_4.png)
->![卡牌介绍](C:/Users/a1063/Desktop/ChainsMafia/Images/7_5.png)
->![卡牌介绍](C:/Users/a1063/Desktop/ChainsMafia/Images/7_6.png)
->![卡牌介绍](C:/Users/a1063/Desktop/ChainsMafia/Images/7_7.png)
->![卡牌介绍](C:/Users/a1063/Desktop/ChainsMafia/Images/7_8.png)
+>![卡牌介绍](./Images/7_2.png)
+>![卡牌介绍](./Images/7_3.png)
+>![卡牌介绍](./Images/7_4.png)
+>![卡牌介绍](./Images/7_5.png)
+>![卡牌介绍](./Images/7_6.png)
+>![卡牌介绍](./Images/7_7.png)
+>![卡牌介绍](./Images/7_8.png)
 
 ### 8.查看个人资产
 
-![个人资产](C:/Users/a1063/Desktop/ChainsMafia/Images/8_1.png)
-![个人资产](C:/Users/a1063/Desktop/ChainsMafia/Images/8_2.png)
+![个人资产](./Images/8_1.png)
+![个人资产](./Images/8_2.png)
 
 ### 9.请求颁发TF7货币和NTF货币
 
-![颁发TF7货币和NTF货币](C:/Users/a1063/Desktop/ChainsMafia/Images/9_1.png)
-![颁发TF7货币和NTF货币](C:/Users/a1063/Desktop/ChainsMafia/Images/9_2.png)
+![颁发TF7货币和NTF货币](./Images/9_1.png)
+![颁发TF7货币和NTF货币](./Images/9_2.png)
 
 ### 10.创建交易
 
-![创建交易](C:/Users/a1063/Desktop/ChainsMafia/Images/10_1.png)
-![创建交易](C:/Users/a1063/Desktop/ChainsMafia/Images/10_2.png)
-![创建交易](C:/Users/a1063/Desktop/ChainsMafia/Images/10_3.png)
+![创建交易](./Images/10_1.png)
+![创建交易](./Images/10_2.png)
+![创建交易](./Images/10_3.png)
 
 ### 11.交易市场查看
 
-![查看交易](C:/Users/a1063/Desktop/ChainsMafia/Images/11_1.png)
+![查看交易](./Images/11_1.png)
 
 ### 12.报价交易
 
-![报价交易](C:/Users/a1063/Desktop/ChainsMafia/Images/12_1.png)
-![报价交易](C:/Users/a1063/Desktop/ChainsMafia/Images/12_2.png)
-![报价交易](C:/Users/a1063/Desktop/ChainsMafia/Images/12_3.png)
+![报价交易](./Images/12_1.png)
+![报价交易](./Images/12_2.png)
+![报价交易](./Images/12_3.png)
 
 ### 13.确认或取消交易
 
 **```这里选择确认交易```**
 
-![确认或取消交易](C:/Users/a1063/Desktop/ChainsMafia/Images/13_1.png)
-![确认或取消交易](C:/Users/a1063/Desktop/ChainsMafia/Images/13_2.png)
-![确认或取消交易](C:/Users/a1063/Desktop/ChainsMafia/Images/13_3.png)
+![确认或取消交易](./Images/13_1.png)
+![确认或取消交易](./Images/13_2.png)
+![确认或取消交易](./Images/13_3.png)
 
 ### 14.查看交易结果
 
@@ -122,10 +122,10 @@ You are a small leader in European underground trading, and you need to build yo
 
 **```卖家账户获得TF7报酬，NTF卡牌转账```**
 
-![确认或取消交易](C:/Users/a1063/Desktop/ChainsMafia/Images/14_1.png)
-![确认或取消交易](C:/Users/a1063/Desktop/ChainsMafia/Images/14_2.png)
-![确认或取消交易](C:/Users/a1063/Desktop/ChainsMafia/Images/14_3.png)
-![确认或取消交易](C:/Users/a1063/Desktop/ChainsMafia/Images/14_4.png)
+![确认或取消交易](./Images/14_1.png)
+![确认或取消交易](./Images/14_2.png)
+![确认或取消交易](./Images/14_3.png)
+![确认或取消交易](./Images/14_4.png)
 
 
 ### 15.游戏对局
@@ -144,23 +144,23 @@ You are a small leader in European underground trading, and you need to build yo
 
 **```当前无人游玩```**
 
-![游戏对局](C:/Users/a1063/Desktop/ChainsMafia/Images/15_1.png)
-![游戏对局](C:/Users/a1063/Desktop/ChainsMafia/Images/15_2.png)
+![游戏对局](./Images/15_1.png)
+![游戏对局](./Images/15_2.png)
 **```双方Start Game加入排队```**
 
-![游戏对局](C:/Users/a1063/Desktop/ChainsMafia/Images/15_3.png)
-![游戏对局](C:/Users/a1063/Desktop/ChainsMafia/Images/15_4.png)
+![游戏对局](./Images/15_3.png)
+![游戏对局](./Images/15_4.png)
 
 **```当前游玩人数更新```**
-![游戏对局](C:/Users/a1063/Desktop/ChainsMafia/Images/15_5.png)
+![游戏对局](./Images/15_5.png)
 
 **```寻找到对手后创建对局```**
-![游戏对局](C:/Users/a1063/Desktop/ChainsMafia/Images/15_6.png)
-![游戏对局](C:/Users/a1063/Desktop/ChainsMafia/Images/15_7.png)
+![游戏对局](./Images/15_6.png)
+![游戏对局](./Images/15_7.png)
 
 **```双方授权开始游戏```**
-![游戏对局](C:/Users/a1063/Desktop/ChainsMafia/Images/15_8.png)
-![游戏对局](C:/Users/a1063/Desktop/ChainsMafia/Images/15_9.png)
+![游戏对局](./Images/15_8.png)
+![游戏对局](./Images/15_9.png)
 
 **```游戏开始```**
 ![游戏对局](./Images/15_10.png)
