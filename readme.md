@@ -40,7 +40,7 @@
 
 ### 1.安装MetaMask插件
 
-![安装插件](C:/Users/a1063/Desktop/ChainsMafia/Images/1_1.png)
+![安装插件](./Images/1_1.png)
 
 ### 2.注册账户
 
@@ -68,12 +68,12 @@
 
 You are a small leader in European underground trading, and you need to build your own network to compete for trading opportunities and the quantity of goods... Each affiliate power can provide you with a certain role Of course, relationships need to work. Some cards give you more, and some cards bring potential risks... Proceed with caution and don't venture into...
 
-![背景介绍](C:/Users/a1063/Desktop/ChainsMafia/Images/6_1.png)
+![背景介绍](./Images/6_1.png)
 
 ### 7.卡牌介绍与认识
 
 >打开gallery.html认识24种不同的卡牌角色
->![卡牌介绍](C:/Users/a1063/Desktop/ChainsMafia/Images/7_1.png)
+>![卡牌介绍](./Images/7_1.png)
 >![卡牌介绍](C:/Users/a1063/Desktop/ChainsMafia/Images/7_2.png)
 >![卡牌介绍](C:/Users/a1063/Desktop/ChainsMafia/Images/7_3.png)
 >![卡牌介绍](C:/Users/a1063/Desktop/ChainsMafia/Images/7_4.png)
