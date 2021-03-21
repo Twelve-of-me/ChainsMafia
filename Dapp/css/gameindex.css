@@ -1,0 +1,198 @@
+html,body,#app,.content{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+#old_page{
+    display: block;
+}
+.content{
+position: relative;
+background-image: url(../images/game/background.jpg) ;
+background-size: 100% 100%;
+display: flex;
+flex-direction: column;
+} 
+.opponent-area{
+    height: 23%;
+    width: 100%;
+    display: flex;
+flex-direction: row;
+
+}
+.mid-area{
+    height: 50%;
+    margin-top:1%;
+    margin-bottom:1%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.my-area{
+    height: 23%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* 对手区域 */
+.opp-cards{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+   
+}
+.opp-cards img{
+    width: 120px;
+    height: auto;
+    margin-right: -50px;
+}
+.opp-cards img:first-child{
+    margin-left: 20%;
+}
+/* 一摞牌 */
+.back-cards{
+    height: 100%;
+    width: 20%;
+}
+.back-cards img{
+    width: 110px;
+    height: auto;
+    margin-right: -110px;
+    
+}
+/* 牌区 */
+.cards-area{
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.icons{
+    height: 100%;
+    width: 10%;
+    display:flex;
+    flex-direction: column;
+    font-size:40px;
+    font-weight:bold;
+    font-family:"STHupo";
+    -webkit-text-fill-color: white;/*文字的填充色*/
+
+-webkit-text-stroke: 2px black;/*描边的像素，也就是粗细，这里指定是2像素的黑色边框*/
+    
+}
+.mid-opp,.mid-my{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+}
+.mid-my:hover{
+    box-shadow:0 0 5px 3px rgb(112, 112, 231);   
+    animation: shadow1 1.5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes shadow1{
+    50% {box-shadow:0 0 8px 5px rgb(112, 112, 231);}
+}
+
+/* Standard syntax */
+@keyframes shadow1 {
+    50% {box-shadow: 0 0 8px 5px rgb(112, 112, 231);}
+}
+.mid-my2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.mid-my img,.mid-opp img{
+    width: 120px;
+    height: auto;
+    margin-right: -1px;
+
+}
+.cards-area img:hover{
+     
+    z-index: 999;
+    transform: scale(1.3) translateY(-20px);
+    
+}
+
+/* 右侧分数 */
+.icons img{
+    width: 90px;
+    height: auto;
+    -webkit-align-self: center; /* Safari 7.0+ */
+    
+    border-radius:50%;
+    justify-content: center; 
+align-items: center; 
+   
+}
+
+.icons img:hover{
+    box-shadow:0 0 3px 1px rgb(0, 255, 128);   
+    animation: yuanshadow 1.5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes yuanshadow{
+    50% {box-shadow:0 0 8px 5px rgb(0, 255, 128);}
+}
+
+/* Standard syntax */
+@keyframes yuanshadow {
+    50% {box-shadow: 0 0 8px 5px rgb(0, 255, 128);}
+}
+.icons p{
+    margin-left: 35%;
+    font-size:40px;
+}
+
+/* 自己区域 */
+
+.my-cards{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;   
+}
+.my-cards img{
+    width: 120px;
+    height: auto;
+    margin-right: -50px;
+}
+.my-cards img:first-child{
+    margin-left: 20%;
+}
+
+.my-cards img:hover{
+     
+    z-index: 999;
+    transform: scale(1.3) translateY(-20px);
+    
+}
+
+
+
+.blue{
+    box-shadow:0 0 5px 3px rgb(112, 112, 231);
+    animation: shadow 1.5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes shadow{
+    50% {box-shadow:0 0 10px 8px rgb(112, 112, 231);}
+}
+
+/* Standard syntax */
+@keyframes shadow {
+    50% {box-shadow: 0 0 10px 8px rgb(112, 112, 231);}
+}

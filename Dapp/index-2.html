@@ -1,0 +1,805 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>BccG - Block chain based game system - Card Game</title>
+<!-- Stylesheets -->
+<link href="http://cdn.bootstrapmb.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<!-- Responsive File -->
+<link href="css/responsive.css" rel="stylesheet">
+
+
+
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="page-wrapper">
+    <!-- Preloader -->
+    <div class="preloader"><div class="icon"></div></div>
+
+    <!-- Main Header -->
+    <header class="main-header header-style-two">
+        <div class="header-container">
+
+            <!-- Header Top -->
+            <div class="header-top">
+            	<div class="auto-container">
+                    <div class="inner clearfix">
+                        <div class="top-left">
+                            <div class="top-text">Welcome to game developement studio</div>
+                        </div>
+        
+                        <div class="top-right">
+                            <ul class="info clearfix">
+                                <li><a href="tel:666-888-0000">666 888 0000</a></li>
+                                <li><a href="mailto:needhelp@sintix.com">needhelp@sintix.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Header Upper -->
+            <div class="header-upper">
+            	<div class="auto-container">
+                    <div class="inner-container clearfix">
+                        <!--Logo-->
+                        <div class="logo-box">
+                            <div class="logo"><a href="index.html" title="Sintix - Digital Video Gaming and Consol HTML Template"><img src="images/logo.png" alt="Sintix - Digital Video Gaming and Consol HTML Template" title="Sintix - Digital Video Gaming and Consol HTML Template"></a></div>
+                        </div>
+    
+                        <!--Nav Box-->
+                        <div class="nav-outer clearfix">
+                            <!--Mobile Navigation Toggler-->
+                            <div class="mobile-nav-toggler"><span class="icon flaticon-menu-2"></span></div>
+    
+                            <!-- Main Menu -->
+                            <nav class="main-menu navbar-expand-md navbar-light">
+                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                    <ul class="navigation clearfix">
+                                        <li class="current dropdown"><a href="index.html">Home</a>
+                                            <ul>
+                                                <li><a href="index.html">Home Page 01</a></li>
+                                                <li><a href="index-2.html">Home Page 02</a></li>
+                                                <li><a href="index-3.html">Home Page Light</a></li>
+                                                <li class="dropdown"><a href="index.html">Header Styles</a>
+                                                    <ul>
+                                                        <li><a href="index.html">Header Type 01</a></li>
+                                                        <li><a href="index-2.html">Header Type 02</a></li>
+                                                        <li><a href="index-3.html">Header Type 03</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="about.html">About</a>
+                                            <ul>
+                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="team.html">Our Team</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="games.html">Games</a>
+                                            <ul>
+                                                <li><a href="games.html">All Games</a></li>
+                                                <li><a href="game-details.html">Dragon Fight</a></li>
+                                                <li><a href="game-details.html">Street Fighter</a></li>
+                                                <li><a href="game-details.html">Justice League</a></li>
+                                                <li><a href="game-details.html">The Mob Rules</a></li>
+                                                <li><a href="game-details.html">Mafia Mystrey</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="gallery.html">Gallery</a></li>
+                                        <li class="dropdown"><a href="blog.html">Blog</a>
+                                            <ul>
+                                                <li><a href="blog.html">Blog Sidebar</a></li>
+                                                <li><a href="blog-grid.html">Blog Grid View</a></li>
+                                                <li><a href="blog-single.html">Blog Single</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <!-- Main Menu End-->
+                            
+                            <ul class="social-links clearfix">
+                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+                                <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                                <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Header Upper-->
+        </div><!--End Header Container-->
+
+        <!-- Sticky Header  -->
+        <div class="sticky-header">
+            <div class="auto-container clearfix">
+                <!--Logo-->
+                <div class="logo pull-left">
+                    <a href="index.html" title=""><img src="images/sticky-logo.png" alt="" title=""></a>
+                </div>
+                <!--Right Col-->
+                <div class="pull-right">
+                    <!-- Main Menu -->
+                    <nav class="main-menu clearfix">
+                        <!--Keep This Empty / Menu will come through Javascript-->
+                    </nav><!-- Main Menu End-->
+                </div>
+            </div>
+        </div><!-- End Sticky Menu -->
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+                <!--Social Links-->
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+                        <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+    </header>
+    <!-- End Main Header -->
+
+
+    <!-- Banner Section -->
+    <section class="banner-section banner-style-two">
+        <div class="banner-carousel owl-theme owl-carousel">
+            <!-- Slide Item -->
+            <div class="slide-item">
+            	<div class="image-layer" style="background-image:url(images/main-slider/2.jpg)"></div>
+
+                <div class="auto-container">
+                    <div class="content-box">
+                        <div class="content">
+                            <div class="upper-subtitle">- New game launch -</div>
+                            <h1><span>Dragon Fight</span></h1>
+                            <div class="lower-subtitle">- available in the market -</div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <!-- Slide Item -->
+            <div class="slide-item">
+                <div class="image-layer" style="background-image:url(images/main-slider/2-a.jpg)"></div>
+
+                <div class="auto-container">
+                    <div class="content-box">
+                        <div class="content">
+                            <div class="upper-subtitle">- New game launch -</div>
+                            <h1><span>Dragon Fight</span></h1>
+                            <div class="lower-subtitle">- available in the market -</div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <!-- Slide Item -->
+            <div class="slide-item">
+                <div class="image-layer" style="background-image:url(images/main-slider/1-b.jpg)"></div>
+
+                <div class="auto-container">
+                    <div class="content-box">
+                        <div class="content">
+                            <div class="upper-subtitle">- New game launch -</div>
+                            <h1><span>Dragon Fight</span></h1>
+                            <div class="lower-subtitle">- available in the market -</div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!--End Banner Section -->
+
+    <!--Game View Section-->
+    <section class="game-view-section">
+        <div class="top-pattern-layer"></div>
+        <div class="auto-container">
+            <!--Platforms-->
+            <div class="platforms">
+                <div class="row clearfix">
+                    <!--Platform Block-->
+                    <div class="platofrm-block col-lg-3 col-md-4 col-sm-6">
+                        <div class="inner">
+                            <div class="icon-box"><span class="flaticon-play"></span></div>
+                            <div class="p-title">buy on <br>play station</div>
+                            <a href="#" class="over-link"></a>
+                        </div>
+                    </div>
+                    <!--Platform Block-->
+                    <div class="platofrm-block col-lg-3 col-md-4 col-sm-6">
+                        <div class="inner">
+                            <div class="icon-box"><span class="flaticon-xbox-logo"></span></div>
+                            <div class="p-title">buy on <br>xbox one</div>
+                            <a href="#" class="over-link"></a>
+                        </div>
+                    </div>
+                    <!--Platform Block-->
+                    <div class="platofrm-block col-lg-3 col-md-4 col-sm-6">
+                        <div class="inner">
+                            <div class="icon-box"><span class="flaticon-steam-logo"></span></div>
+                            <div class="p-title">buy on <br>Steam / VR</div>
+                            <a href="#" class="over-link"></a>
+                        </div>
+                    </div>
+                    <!--Platform Block-->
+                    <div class="platofrm-block col-lg-3 col-md-4 col-sm-6">
+                        <div class="inner">
+                            <div class="icon-box"><span class="flaticon-playstore-2"></span></div>
+                            <div class="p-title">buy on <br>playstore</div>
+                            <a href="#" class="over-link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Game Trailer-->
+            <div class="game-trailer">
+                <!--Title-->
+                <div class="sec-title centered"><h2>Watch the trailer</h2><span class="bottom-curve"></span></div>
+
+                <div class="trailer-video-box">
+                    <figure class="image"><img src="images/resource/video-trailer-image.jpg" alt="" title=""></figure>
+                    <a href="https://www.youtube.com/watch?v=ticp6ScuyLY" class="lightbox-image over-link"><span class="icon fa fa-play"></span></a>
+                </div>
+
+            </div>
+
+            <!--Game Awards-->
+            <div class="game-awards">
+                <!--Title-->
+                <div class="sec-title centered"><h2>SPECIAL awards</h2><span class="bottom-curve"></span></div>
+
+                <div class="awards">
+                    <div class="row clearfix">
+                        <!--Award Block-->
+                        <div class="award-block col-lg-3 col-md-6 col-sm-12">
+                            <div class="inner">
+                                <div class="upper-title">design <br>award</div>
+                                <div class="lower-title">winner 2018</div>
+                            </div>
+                        </div>
+                        <!--Award Block-->
+                        <div class="award-block col-lg-3 col-md-6 col-sm-12">
+                            <div class="inner">
+                                <div class="upper-title">Apple tv</div>
+                                <div class="lower-title">game of the <br>year</div>
+                            </div>
+                        </div>
+                        <!--Award Block-->
+                        <div class="award-block col-lg-3 col-md-6 col-sm-12">
+                            <div class="inner">
+                                <div class="upper-title">google play <br>best</div>
+                                <div class="lower-title">developer</div>
+                            </div>
+                        </div>
+                        <!--Award Block-->
+                        <div class="award-block col-lg-3 col-md-6 col-sm-12">
+                            <div class="inner">
+                                <div class="upper-title">MGA finalist</div>
+                                <div class="lower-title">best audio <br>visual</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--Reviews Section-->
+    <section class="reviews-section">
+        <div class="top-pattern-layer-dark"></div>
+        <div class="bottom-pattern-layer-dark"></div>
+
+        <div class="auto-container">
+            <!--Title-->
+            <div class="sec-title"><h2>Players reviews</h2><span class="bottom-curve"></span></div>
+
+            <div class="testimonial-slider carousel-outer clearfix">
+                
+                <div class="thumb-carousel-box">
+                    <ul class="thumb-carousel owl-carousel owl-theme">
+                        <li class="thumb"><img src="images/resource/rev-thumb-1.jpg" alt=""></li>
+                        <li class="thumb"><img src="images/resource/rev-thumb-2.jpg" alt=""></li>
+                        <li class="thumb"><img src="images/resource/rev-thumb-3.jpg" alt=""></li>
+                        <li class="thumb"><img src="images/resource/rev-thumb-1.jpg" alt=""></li>
+                        <li class="thumb"><img src="images/resource/rev-thumb-2.jpg" alt=""></li>
+                        <li class="thumb"><img src="images/resource/rev-thumb-3.jpg" alt=""></li>
+                    </ul>
+                </div>
+        
+                <div class="text-carousel owl-carousel owl-theme">
+                    <!--Slide Item-->
+                    <div class="slide-item">
+                        <div class="inner">
+                            <div class="text">This is due to their excellent service competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected humour.</div>
+                            <div class="info clearfix"><span class="name">Jessica brown</span> &ensp;-&ensp; <span class="date">25 may, 2019</span></div>
+                        </div>
+                    </div>
+                    <!--Slide Item-->
+                    <div class="slide-item">
+                        <div class="inner">
+                            <div class="text">This is due to their excellent service competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected humour.</div>
+                            <div class="info clearfix"><span class="name">Kevin Smith</span> &ensp;-&ensp; <span class="date">25 may, 2019</span></div>
+                        </div>
+                    </div>
+                    <!--Slide Item-->
+                    <div class="slide-item">
+                        <div class="inner">
+                            <div class="text">This is due to their excellent service competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected humour.</div>
+                            <div class="info clearfix"><span class="name">Christine eve</span> &ensp;-&ensp; <span class="date">25 may, 2019</span></div>
+                        </div>
+                    </div>
+                    <!--Slide Item-->
+                    <div class="slide-item">
+                        <div class="inner">
+                            <div class="text">This is due to their excellent service competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected humour.</div>
+                            <div class="info clearfix"><span class="name">Jessica brown</span> &ensp;-&ensp; <span class="date">25 may, 2019</span></div>
+                        </div>
+                    </div>
+                    <!--Slide Item-->
+                    <div class="slide-item">
+                        <div class="inner">
+                            <div class="text">This is due to their excellent service competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected humour.</div>
+                            <div class="info clearfix"><span class="name">Kevin Smith</span> &ensp;-&ensp; <span class="date">25 may, 2019</span></div>
+                        </div>
+                    </div>
+                    <!--Slide Item-->
+                    <div class="slide-item">
+                        <div class="inner">
+                            <div class="text">This is due to their excellent service competitive pricing and customer support. It’s throughly refresing to get such a personal touch. There are many variations of passages of available, but the majority have suffered alteration in some form by injected humour.</div>
+                            <div class="info clearfix"><span class="name">Christine eve</span> &ensp;-&ensp; <span class="date">25 may, 2019</span></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+
+    <!--Carousel Gallery Section-->
+    <section class="carousel-gallery">
+        <div class="auto-container">
+            <div class="sec-title centered"><h2>Games gallery</h2><span class="bottom-curve"></span></div>
+        </div>
+
+        <div class="carousel-box">
+            <!--Gallery Carousel-->
+            <div class="gallery-carousel owl-theme owl-carousel">
+                <!--Slide Item-->
+                <div class="slide-item">
+                    <!--Gallery Item-->
+                    <div class="gallery-item">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><img src="images/gallery/17.jpg" alt="" title=""></figure>
+                            </div>
+                            <div class="hover-box">
+                                <a href="images/gallery/17.jpg" title="" data-fancybox="home-gallery" class="lightbox-image"><span class="icon flaticon-cross"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Slide Item-->
+                <div class="slide-item">
+                    <!--Gallery Item-->
+                    <div class="gallery-item">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><img src="images/gallery/18.jpg" alt="" title=""></figure>
+                            </div>
+                            <div class="hover-box">
+                                <a href="images/gallery/18.jpg" title="" data-fancybox="home-gallery" class="lightbox-image"><span class="icon flaticon-cross"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Slide Item-->
+                <div class="slide-item">
+                    <!--Gallery Item-->
+                    <div class="gallery-item">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><img src="images/gallery/19.jpg" alt="" title=""></figure>
+                            </div>
+                            <div class="hover-box">
+                                <a href="images/gallery/19.jpg" title="" data-fancybox="home-gallery" class="lightbox-image"><span class="icon flaticon-cross"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Slide Item-->
+                <div class="slide-item">
+                    <!--Gallery Item-->
+                    <div class="gallery-item">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><img src="images/gallery/20.jpg" alt="" title=""></figure>
+                            </div>
+                            <div class="hover-box">
+                                <a href="images/gallery/20.jpg" title="" data-fancybox="home-gallery" class="lightbox-image"><span class="icon flaticon-cross"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Slide Item-->
+                <div class="slide-item">
+                    <!--Gallery Item-->
+                    <div class="gallery-item">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><img src="images/gallery/17.jpg" alt="" title=""></figure>
+                            </div>
+                            <div class="hover-box">
+                                <a href="images/gallery/17.jpg" title="" data-fancybox="home-gallery" class="lightbox-image"><span class="icon flaticon-cross"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Slide Item-->
+                <div class="slide-item">
+                    <!--Gallery Item-->
+                    <div class="gallery-item">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><img src="images/gallery/18.jpg" alt="" title=""></figure>
+                            </div>
+                            <div class="hover-box">
+                                <a href="images/gallery/18.jpg" title="" data-fancybox="home-gallery" class="lightbox-image"><span class="icon flaticon-cross"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Slide Item-->
+                <div class="slide-item">
+                    <!--Gallery Item-->
+                    <div class="gallery-item">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><img src="images/gallery/19.jpg" alt="" title=""></figure>
+                            </div>
+                            <div class="hover-box">
+                                <a href="images/gallery/19.jpg" title="" data-fancybox="home-gallery" class="lightbox-image"><span class="icon flaticon-cross"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Slide Item-->
+                <div class="slide-item">
+                    <!--Gallery Item-->
+                    <div class="gallery-item">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><img src="images/gallery/20.jpg" alt="" title=""></figure>
+                            </div>
+                            <div class="hover-box">
+                                <a href="images/gallery/20.jpg" title="" data-fancybox="home-gallery" class="lightbox-image"><span class="icon flaticon-cross"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Featured Game-->
+    <section class="featured-game">
+        <div class="bottom-pattern-layer"></div>
+
+        <div class="auto-container">
+
+            <div class="row clearfix">
+                <!--Text Column-->
+                <div class="text-column col-lg-6 col-md-12 col-sm-12">
+                    <div class="inner">
+                        <div class="sec-title"><h2>spirit of a warrior who battled dragons</h2><span class="bottom-curve"></span></div>
+                        <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</div>
+                        <div class="link-box"><a href="game-details.html" class="theme-btn btn-style-one"><span class="btn-title">Buy game Now</span></a></div>
+                    </div>
+                </div>
+                <!--Image Column-->
+                <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                    <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="image-box"><img src="images/resource/featured-image-2.png" alt="" title=""></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!--Parallax Section-->
+    <section class="parallax-section">
+        <div class="image-layer" style="background-image: url(images/background/parallax-bg.jpg);"></div>
+
+        <div class="auto-container">
+            <div class="content-box wow zoomInStable" data-wow-delay="0ms" data-wow-duration="2500ms">
+                <h2>THE WORLD NEEDS HEROES</h2>
+                <div class="text-box">Slow down time, rain destruction from above in a jet-powered armor suit, or pilot a superpowered hamster ball: In Dragon Fight, every hero has a unique set of devastating abilities.</div>
+            </div>
+        </div>
+    </section>
+
+    <!--FAQs Section-->
+    <section class="faq-section">
+        <div class="top-pattern-layer"></div>
+
+        <div class="auto-container">
+            <!--Title-->
+            <div class="sec-title centered"><h2>Question & Answers</h2><span class="bottom-curve"></span></div>
+
+            <div class="faq-container">
+                <div class="accordion-box">
+                    <!--Block-->
+                    <div class="accordion block current wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="acc-btn active">How to earn point in the game? <div class="icon flaticon-cross"></div></div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</div>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <!--Block-->
+                    <div class="accordion block wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+                        <div class="acc-btn">How to beat team based shooters? <div class="icon flaticon-cross"></div></div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Block-->
+                    <div class="accordion block wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="acc-btn">who lives to cause chaos and destruction? <div class="icon flaticon-cross"></div></div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Block-->
+                    <div class="accordion block wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="acc-btn">A cyborg ninja and deadly warrior? <div class="icon flaticon-cross"></div></div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Block-->
+                    <div class="accordion block wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                        <div class="acc-btn">which hero has a unique set of devastating abilities? <div class="icon flaticon-cross"></div></div>
+                        <div class="acc-content">
+                            <div class="content">
+                                <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+
+    <!--News Section-->
+    <section class="news-section no-top-curve">
+
+        <div class="auto-container">
+            <!--Title-->
+            <div class="sec-title centered"><h2>latest Blog Posts</h2><span class="bottom-curve"></span></div>
+
+            <div class="row clearfix">
+                
+                <!--News Block-->
+                <div class="news-block col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <div class="inner-box">
+                        <figure class="image-box"><a href="blog-single.html"><img src="images/resource/news-image-1.jpg" alt="" title=""></a></figure>
+                        <div class="over-box">
+                            <div class="date"><span class="date-title">26 May, 2019</span></div>
+                            <h3><a href="blog-single.html">esports games this weekend</a></h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!--News Block-->
+                <div class="news-block col-lg-6 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <div class="inner-box">
+                        <figure class="image-box"><a href="blog-single.html"><img src="images/resource/news-image-2.jpg" alt="" title=""></a></figure>
+                        <div class="over-box">
+                            <div class="date"><span class="date-title">22 May, 2019</span></div>
+                            <h3><a href="blog-single.html">Willkommen in sintix Eternal Foren</a></h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!--News Block-->
+                <div class="news-block col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <div class="inner-box">
+                        <figure class="image-box"><a href="#"><img src="images/resource/news-image-3.jpg" alt="" title=""></a></figure>
+                        <div class="over-box">
+                            <div class="date"><span class="date-title">19 May, 2019</span></div>
+                            <h3><a href="#">Concept art from sintix</a></h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!--News Block-->
+                <div class="news-block col-lg-6 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <div class="inner-box">
+                        <figure class="image-box"><a href="blog-single.html"><img src="images/resource/news-image-4.jpg" alt="" title=""></a></figure>
+                        <div class="over-box">
+                            <div class="date"><span class="date-title">18 May, 2019</span></div>
+                            <h3><a href="blog-single.html">The slayer has entered the facility</a></h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Footer -->
+    <footer class="main-footer">
+        <div class="top-pattern-layer-dark"></div>
+
+        <div class="auto-container">
+            <!--Widgets Section-->
+            <div class="widgets-section">
+                <div class="row clearfix">
+                    
+                    <!--Column-->
+                    <div class="column col-lg-4 col-md-6 col-sm-12">
+                        <div class="footer-widget logo-widget">
+                            <div class="widget-title">
+                                    <h3>About us</h3>
+                                </div>
+                            <div class="text">There are many variations of passages of lorem ipsum is simply free text available but the majority have suffered alteration in some form by injected.</div>
+							<!--Newsletter-->
+							<div class="newsletter-form">
+								<form method="post" action="contact.html">
+									<div class="form-group clearfix">
+										<input type="email" name="email" value="" placeholder="Email address" required>
+										<button type="submit" class="theme-btn newsletter-btn"><span class="icon flaticon-arrows-6"></span></button>
+									</div>
+								</form>
+							</div>
+                        </div>
+                    </div>
+                    
+                    <!--Column-->
+                    <div class="column col-lg-5 col-md-6 col-sm-12">
+                        <div class="footer-widget links-widget">
+                            <div class="widget-content">
+                                <div class="row clearfix">
+                                    <div class="column col-lg-6 col-md-6 col-sm-12">
+                                        <div class="widget-title">
+                                            <h3>Explore</h3>
+                                        </div>
+                                        <ul class="list">
+                                            <li><a href="#">About</a></li>
+                                            <li><a href="#">Our Games</a></li>
+                                            <li><a href="#">Contact Us</a></li>
+                                            <li><a href="#">Help & Support</a></li>
+                                            <li><a href="#">Privacy Policy</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="column col-lg-6 col-md-6 col-sm-12">
+                                        <div class="widget-title">
+                                            <h3>Our Games</h3>
+                                        </div>
+                                        <ul class="list">
+                                            <li><a href="#">Need For Speed</a></li>
+                                            <li><a href="#">Call Of Duty</a></li>
+                                            <li><a href="#">Resident Evil</a></li>
+                                            <li><a href="#">Dragons Fight</a></li>
+                                            <li><a href="#">2 Player Champions</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    <!--Column-->
+                    <div class="column col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-widget info-widget">
+                            <ul class="contact-info">
+                                <li><strong>Phone</strong> <br><a href="tel:666-888-000">666 888 000</a></li>
+                                <li><strong>Address</strong> <br>88 road, broklyn street <br>new york, usa</li>
+                                <li><strong>Email Address</strong> <br><a href="mailto:needhelp@sintix.com">needhelp@sintix.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="outer-container">
+                <!--Footer Bottom Shape-->
+                <div class="bottom-shape-box"><div class="bg-shape"></div></div>
+
+                <div class="auto-container">
+                    <!--Scroll to top-->
+                    <div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-up-arrow"></span></div>
+                    <!--Scroll to top-->
+                    <div class="row clearfix">
+                        <!-- Column -->
+                        <div class="column col-lg-6 col-md-12 col-sm-12">
+                            <div class="copyright"><span class="logo-icon"></span> &copy; Copyrights 2019 <a href="http://www.bootstrapmb.com/">Sintix</a> - All Rights Reserved</div>
+                        </div>
+                        <!-- Column -->
+                        <div class="column col-lg-6 col-md-12 col-sm-12">
+                            <div class="social-links">
+                                <ul class="default-social-links">
+                                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                    <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+                                    <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+                                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </footer>
+	
+</div>
+<!--End pagewrapper-->
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-up-arrow"></span></div>
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="http://cdn.bootstrapmb.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/scrollbar.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

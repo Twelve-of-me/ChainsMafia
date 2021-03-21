@@ -1,0 +1,116 @@
+html,body,#app,.content{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.content{
+position: relative;
+background-image: url(../images/game/background.jpg) ;
+background-size: 100% 100%;
+
+}    
+.mycards{
+position: absolute ;
+left: 100px;
+bottom: 10px;
+width: 1200px;
+height: auto;
+display: flex;
+display: -webkit-flex; /* Safari */
+flex-direction:row;
+
+
+} 
+.yourcards{
+position: absolute ;
+left: 100px;
+top: 0;
+width: 1200px;
+height: auto;
+display: flex;
+display: -webkit-flex; /* Safari */
+flex-direction:row-reverse;
+
+
+}  
+.pic{
+
+
+width: 120px;
+height: auto;
+margin-left:-30px ;
+
+}
+.big{
+    position: absolute;
+    top:210px;
+    left: 100px;
+    width: 1200px;
+    text-align: center;
+    align-items: center;
+
+}
+.bigpic{
+width: 200px;
+height: auto;
+top:100px;
+}
+.pic2{
+
+width: 130px;
+height: auto;
+margin-left:30px ;
+
+}
+.cards{
+position: absolute;
+right:  20px;    
+}
+.cards2{
+position: absolute;
+left:   20px;    
+}
+.blue{
+box-shadow:0 0 5px 3px rgb(112, 112, 231);
+}
+.move{
+-webkit-animation: mymove 1s ; /* Chrome, Safari, Opera */
+animation: mymove 1s ;
+animation-iteration-count:1;
+-webkit-animation-iteration-count:1; /* Safari 和 Chrome */
+animation-fill-mode:forwards
+
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+/* 50% {transform: translateY(-150px);} */
+100% {transform: translateY(-280px);}
+
+
+}
+
+/* Standard syntax */
+@keyframes mymove {
+/* 50% {transform: translateY(-150px);} */
+100% {transform: translateY(-280px);}
+
+}
+.chupai{
+    width: 73px;
+    height:50px;
+    /* position: absolute;
+    left: -10px;  */
+    /* background-size: 100%,100%;
+    
+    background: url(../images/出牌图标.png) no-repeat;
+    border-style: none; */
+
+}
+.chupai img{
+    width: 100%;
+    height: auto;
+}
+.chupai img:hover{
+    content: url(../images/game/出牌图标2.png)
+}
